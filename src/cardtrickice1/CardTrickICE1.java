@@ -59,7 +59,12 @@ public class CardTrickICE1
 
             c2.setValue(n);
             c2.setSuits(s)  ;
+     
             System.out.println( c2.getValue()+"    " +  c2.getSuits());
+    
+             Card Luckycard = new Card();
+             Luckycard.setValue(8);
+             Luckycard.setSuits("diamonds");
    
              boolean found = false;
              System.out.println("Searching for: " + c2);
