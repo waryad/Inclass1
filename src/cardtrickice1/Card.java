@@ -1,14 +1,17 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ *  Name = Deepinder Kaur Warya
+  Student Number = 991459788
+
  */
+
+        
 package cardtrickice1;
 
+import java.util.Random;
 /** define card value and suits
  * 
  *
- * @author sivagamasrinivasan
+ * @author Deepinder
  */
 public class Card 
 {
@@ -17,35 +20,25 @@ public class Card
     //constant
     public static final String [] SUITS = { "diamonds","clubs","spades","hearts"};
 
-    /**
-     * @return the value
-     */
     public int getValue() {
         return value;
     }
-
-    /**
-     * @param value the value to set
-     */
+    
     public void setValue(int value) {
         this.value = value;
     }
 
-    /**
-     * @return the suits
-     */
     public String getSuits() {
         return suits;
     }
-
-    /**
-     * @param suits the suits to set
-     */
-    public void setSuits(String suits) {
+   
+      public void setSuits(String suits) {
         this.suits = suits;
     }
-   //number
-    
-    //method for suits
+      public String toString(){
+      return getValue()+ " "+getSuits();
+      }
+ 
+
     
 }
