@@ -3,7 +3,9 @@
  Name = Deepinder Kaur Warya
   Student Number = 991459788
 
- */
+ 
+
+*/
 package cardtrickice1;
 
 
@@ -31,7 +33,7 @@ public class CardTrickICE1
             c1.setValue(1+(int)(Math.random()*13));//used a method to generate random *13
             
              Random r = new Random();
-             int randomNumber =r.nextInt(SUITS.length);
+             int randomNumber =r.nextInt(SUITS.length);//random
      
            c1.setSuits((SUITS[randomNumber]));
         
